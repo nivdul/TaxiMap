@@ -1,25 +1,32 @@
-Ionic App Base
+TukItEasy mobile app
 =====================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+A mobile application for people in Cambodia to find a tuk-tuk or a taxi.
 
-## Using this project
+# Using this project
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
+### Prerequisites
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
+You'll need these things before you start:
 
-```bash
-$ npm install -g ionic
+* Node.js: http://nodejs.org/
+* Ionic: `npm install -g ionic`
+
+### How to run this app
+
+Before you can run the project, you need to clone the project:
+
+```sh
+$ git clone https://github.com/nivdul/TukItEasy.git
 ```
+Then go to the project. To launch it on your browser:
 
-Then run:
-
-```bash
-$ ionic start myProject tabs
+```sh
+$ ionic serve
 ```
+And to launch it on Android platform:
 
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
-
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
+```sh
+$ ionic platform add android
+$ ionic emulate android
+```
