@@ -17,18 +17,16 @@ You'll need these things before you start:
 Before you can run the project, you need to clone the project:
 
 ```sh
-git clone https://github.com/nivdul/TukItEasy.git
+$ git clone https://github.com/nivdul/TukItEasy.git
 ```
 Then go to the project. To launch it on your browser:
 
 ```sh
-ionic serve
+$ ionic serve
 ```
 And to launch it on Android platform:
 
 ```sh
-ionic platform add android
-```
-```sh
-ionic emulate android
+$ ionic platform add android
+$ ionic emulate android
 ```
