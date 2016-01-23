@@ -1,4 +1,4 @@
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives'])
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives', 'ngOpenFB'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -6,4 +6,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives']
       StatusBar.styleDefault();
     }
   });
+}).run(function ($ionicPlatform, ngFB) {
+  ngFB.init({appId: '442077709317313'});
 })
