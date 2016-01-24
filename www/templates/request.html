@@ -1,0 +1,24 @@
+<ion-view title="Request">
+    <ion-content class="has-header">
+        <div class="list card">
+            <div class="item">
+                <p>{{request.addressFrom}}</p>
+                <p>{{request.addressTo}}</p>
+                <p>{{request.distance}}</p>
+                <p>{{request.estimatedPrice}}</p>
+                <p>{{request.customer}}</p>
+                <p>{{request.phone}}</p>
+            </div>
+            <div class="item tabs tabs-secondary tabs-icon-left">
+                <a class="tab-item" ng-click="push()">
+                    <i class="icon ion-thumbsup"></i>
+                    Review
+                </a>
+                <a class="tab-item">
+                    <i class="icon ion-chatbox"></i>
+                    Comment
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
