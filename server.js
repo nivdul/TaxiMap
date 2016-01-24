@@ -24,10 +24,10 @@ app.listen(port, function() {
 });
 
 pg.connect(process.env.HEROKU_POSTGRESQL_DBNAME_URL, function(err, client, done) {
-   //client.query('SELECT * FROM your_table', function(err, result) {
-   //   done();
+   /*
+   client.query('SELECT * FROM your_table', function(err, result) {
+      done();
       if(err) return console.error(err);
       console.log(result.rows);
-   //}
-   );
+   });*/
 });
